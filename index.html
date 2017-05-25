@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- Import css file -->
+	<!-- Import css file and Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
 	<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
@@ -39,7 +40,7 @@
 	</nav>
 	<!-- Content -->
 	<div class="container main-section text-center">
-		<!-- Intro -->
+		<!-- About Me -->
 		<div id="aboutMe" class="row intro section">
 			<div class="col-md-8 ">
 				<h1>
@@ -59,27 +60,24 @@
 				<div class="profile-img-helper">
 					<img class="profile-img" src="images/profile.jpg">	
 				</div>
-				
-			</div>
-				
+			</div>				
 		</div>
 		<!-- Portfolio -->
-		<div id="portfolio" class="row portfolio section">
+		<div id="portfolio" class="row portfolio section section-dark">
 			<div class="col-md-12">
 				<h1 class="section-header">Portfolio</h1>
 				<div class="container-fluid">
-					<div class="row">
+					<div class="row portfolio-group">
 						<div class="col-md-6">
 							<img class="portfolio-img" src="images/portfolio1.jpg" alt="Project 1">
 						</div>
 						<div class="col-md-6">
-
 							<a href="http://codepen.io/elvismalope/full/ozrNrE/">
 								<img class="portfolio-img" src="images/portfolio2.jpg" alt="Project 2">
 							</a>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row portfolio-group">
 						<div class="col-md-6">
 							<img class="portfolio-img" src="images/profile.jpg" alt="Project 1">
 						</div>
@@ -93,46 +91,43 @@
 		<!-- Contact Me -->
 		<div id="contactMe" class="row contactme section">
 			<div class="col-md-12">
-					<div class="container-fluid">
-							<div class="row">
-								<div class="col-md-12">
-									<h1>Contact Me</h1>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12">
+							<h1>Contact Me</h1>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<form class="text-left">
+								<div class="form-group">
+									<label for="name_1">Name</label>
+									<input class="form-control" type="name" id="name_1" placeholder="Enter Name">
 								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6">
-									<form class="text-left">
-										<div class="form-group">
-											<label for="name_1">Name</label>
-											<input class="form-control" type="name" id="name_1" placeholder="Enter Name">
-										</div>
-										<div class="form-group">
-											<label for="email_1">Email Address</label>
-											<input class="form-control" type="email" id="email_1" placeholder="Enter Email Address">
-										</div>
-										<div class="form-group">
-											<label for="phone_1">Contant Number</label>
-											<input class="form-control" type="email" id="phone_1" placeholder="Enter Phone Number">
-										</div>
-										<div class="form-group">
-											<label for="message_1">Message</label>
-											<textarea class="form-control" id="message1" rows="3"></textarea>
-										</div>
-										<div class="form-group">
-											<button type="submit" class="btn btn-primary">Send</button>
-										</div>
-									</form>
+								<div class="form-group">
+									<label for="email_1">Email Address</label>
+									<input class="form-control" type="email" id="email_1" placeholder="Enter Email Address">
 								</div>
-								<div class="col-md-6">
-									<h3>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.Front-End Developer and UX/UI designer, with practical</h3>
+								<div class="form-group">
+									<label for="phone_1">Contant Number</label>
+									<input class="form-control" type="email" id="phone_1" placeholder="Enter Phone Number">
 								</div>
-							</div>
-					</div>	
+								<div class="form-group">
+									<label for="message_1">Message</label>
+									<textarea class="form-control" id="message1" rows="6"></textarea>
+								</div>
+								<div class="form-group">
+									<button type="submit" class="btn btn-primary">Send</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-6">
+							<h3>Front-End Developer and UX/UI designer, with practical experience in project management, branding strategy, and creative direction; devoted to functional programming and information architecture.Front-End Developer and UX/UI designer, with practical</h3>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
-	</div>
-	</div>
-	</div>
 	</div>	
 	<!-- footer -->
 	<footer>
@@ -149,18 +144,17 @@
 						<a href="https://www.linkedin.com/in/elvismalope"><i class="fa fa-linkedin"></i></a>
 						<a href="https://github.com/elvismalope"><i class="fa fa-github"></i></a>
 						<a href="https://www.freecodecamp.com/elvismalope"><i class="fa fa-free-code-camp"></i></a>
-						<a href="https://www.linkedin.com/in/elvismalope"><i class="fa fa-codepen"></i></a>
+						<a href="http://codepen.io/elvismalope/"><i class="fa fa-codepen"></i></a>
 					</div>
 				</div>
 			</div>
 			<div class="row footer-copy-rights">
 				<div class="col-md-12">
-					<p>emDev c. All Rights Reserved</p>
+					<p>emDev c. All Rights Reserved 2017</p>
 				</div>
 			</div>
 		</div>
 	</footer>
 	
-
 </body>
 </html>
